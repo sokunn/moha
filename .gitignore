@@ -1,6 +1,4 @@
 .idea/
 *.pyc
-env/
 node_modules/
 tests/coverage/
-!/env/lib/python3.5/site-packages/

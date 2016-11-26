@@ -11,14 +11,15 @@
         {# INFO: the logo should be placed first for seo reasons #}
         <div class="navbar-header">
             {# INFO: the logo should be placed first for seo reasons #}
-            {% comment "대체 필요" %}
+            {% comment navbar-brand %}
             <h1 class="navbar-brand">
                 <a href="/">
                     <span class="sr-only">{{ request.site.name }}</span>
-                    <img src="{% static "img/logo-main@print.png" %}" alt="{{ request.site.name }}" />
+
                 </a>
             </h1>
             {% endcomment %}
+            <img src="{% static "img/logo-moha.png" %}" width="200" height="50" style="margin-top: 20px;" />
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".js-navbar-header">
                 {% for row in 123|make_list %}<span class="icon-bar"></span>{% endfor %}
             </button>

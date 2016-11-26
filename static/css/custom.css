@@ -3,6 +3,9 @@
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  *//*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-.inline {
-    display: inline;
+.cms-plugin-text-node {
+    font-family: 나눔고딕, NanumGothic
+}
+a {
+    font-family: 나눔고딕, NanumGothic
 }
